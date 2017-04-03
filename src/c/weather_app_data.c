@@ -88,16 +88,16 @@ void weather_app_view_model_deinit(WeatherAppMainWindowViewModel *model) {
 
 static WeatherAppDataPoint s_data_points[] = {
     {
-        .city = "PALO ALTO",
-        .description = "Light Rain.",
+        .city = "Paris",
+        .description = "Pluis de merde de pigeon.",
         .icon = WEATHER_APP_ICON_LIGHT_RAIN,
-        .current = 68,
-        .high = 70,
-        .low = 60,
+        .current = 999,
+        .high = 999,
+        .low = -999,
     },
     {
-        .city = "LOS ANGELES",
-        .description = "Clear throughout the day.",
+        .city = "Trump City",
+        .description = "Soleil d'or",
         .icon = WEATHER_APP_ICON_SUNNY_DAY,
         .current = 100,
         .high = 100,
